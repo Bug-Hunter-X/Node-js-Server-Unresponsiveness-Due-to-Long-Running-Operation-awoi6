@@ -1,0 +1,3 @@
+# Node.js Server Unresponsiveness
+
+This repository demonstrates a common issue in Node.js servers: unresponsiveness caused by long-running operations that block the event loop.  The `bug.js` file contains a server that simulates a long-running task, making the server unresponsive to new requests during that time.  The `bugSolution.js` file demonstrates how to resolve this using asynchronous operations.
